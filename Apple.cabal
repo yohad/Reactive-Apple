@@ -19,8 +19,8 @@ library
   build-depends:       base
                      , containers
                      , vector
-                     , ad
-                     , nonlinear-optimization
+                     , hmatrix
+                     , hmatrix-gsl
   default-language:    Haskell2010
 
 test-suite Apple-test
