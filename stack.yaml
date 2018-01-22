@@ -1,21 +1,13 @@
-resolver: lts-9.14
+resolver: lts-9.15
 packages:
 - '.'
-extra-deps:
-- hmatrix-0.18.1.0
-- hmatrix-gsl-0.18.0.1
+extra-deps: []
 flags: {}
 extra-package-dbs: []
 #extra-include-dirs: []
-extra-lib-dirs:
-- /nix/store/0c9wnr11z1x5js1qpm5yrirdm82fxyd6-gfortran-5.4.0-lib/lib/
+extra-lib-dirs: []
 nix:
   enable: true
   packages:
-  - gsl
   - ncurses
   - pkgconfig
-  - gfortran
-  - blas
-  - liblapack
-  - atlas

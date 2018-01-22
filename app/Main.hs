@@ -2,5 +2,5 @@ module Main where
 
 
 main :: IO ()
-main = do
+main =
     putStrLn "Sup"

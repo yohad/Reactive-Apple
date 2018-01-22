@@ -6,7 +6,7 @@ homepage:            https://github.com/githubuser/Apple#readme
 license:             BSD3
 license-file:        LICENSE
 author:              Yotam Ohad
-maintainer:          yotam2206@gmaol.com
+maintainer:          yotam2206@gmail.com
 copyright:           2017 Yotam Ohad
 category:            Physics
 build-type:          Simple
@@ -17,10 +17,6 @@ library
   hs-source-dirs:      src
   exposed-modules:     Apple
   build-depends:       base
-                     , containers
-                     , vector
-                     , hmatrix
-                     , hmatrix-gsl
   default-language:    Haskell2010
 
 test-suite Apple-test
